@@ -70,7 +70,7 @@ const Trending = () => {
       <div className=' text-white flex items-center gap-2 ' >
         <img src={img} alt={t_1} className='h-12' />
         <div>
-        <p>{name}</p>
+        <p className='text-t-80 font-semibold'>{name}</p>
         <p className='flex items-center pr-1 text-slate-400'>lowest price: <img src={Eth} alt={Eth} className='h-4 pr-1 pl-1'/>{l_price}</p>
         </div>        
         </div>

@@ -7,7 +7,7 @@ import{ImEarth} from 'react-icons/im'
 import Form from './Form'
 const Community_page = () => {
   return (
-<div className={"w-full h-screen bg-[url('assets/community.png')] bg-cover bg-no-repeat"} >
+<div className={"h-screen bg-cover bg-no-repeat"} >
   <h1 className="text-community-c4 text-4xl font-bold text-center  py-5 font-style_3">Join Our Community</h1>
 
 <div className="  ">
@@ -17,24 +17,24 @@ const Community_page = () => {
 </div> */}
 
 <div className='grid grid-cols-2 gap-4 pr-3 lg:ml-14 '>
-      <div className=" ml-3  flex flex-col items-center justify-center rounded-xl  border-b-4 border-t-30 pb-4  duration-300 shadow-md  hover:shadow-custom cursor-pointer hover:border-community-c2 ">
+      <div className=" ml-3  flex flex-col items-center justify-center rounded-xl pt-3 border-b-4 border-t-30 pb-4  duration-300 shadow-md  hover:shadow-custom cursor-pointer hover:border-community-c2 ">
         <BsPersonFill size={120} className="text-t-10 hover:text-i2 duration-300"/>
-        <p className='text-t-10 text-4xl font-bold capitalize '>8M+ Members</p>
+        <p className='text-t-10  font-bo md:text-4xl text-3xl text-center font-bold capitalize pt-2'>18M+ Members</p>
       </div>
 
-      <div className="border-b-4 ml-3 flex flex-col items-center justify-center rounded-xl pb-4 border-t-30   duration-300 shadow-md  hover:shadow-custom cursor-pointer hover:border-six">
+      <div className="border-b-4 ml-3 flex flex-col items-center justify-center rounded-xl pt-3 pb-4 border-t-30   duration-300 shadow-md  hover:shadow-custom cursor-pointer hover:border-six">
         <BsCart2 size={120} className="text-t-10 hover:text-i2 duration-300"/>
-        <p className='text-t-10 text-4xl font-bold capitalize '>1M+ Nft's</p>
+        <p className='text-t-10  md:text-4xl text-3xl text-center font-bold capitalize pt-2 '>11M+ Buyers</p>
       </div>
 
-      <div className="border-b-4 ml-3 flex flex-col items-center justify-center rounded-xl pb-4 border-t-30   duration-300 shadow-md  hover:shadow-custom cursor-pointer hover:border-purple ">
+      <div className="border-b-4 ml-3 flex flex-col items-center justify-center rounded-xl pt-3 pb-4 border-t-30   duration-300 shadow-md  hover:shadow-custom cursor-pointer hover:border-purple ">
         <GiTakeMyMoney size={120} className="text-t-10 hover:text-i2 duration-300"/>
-        <p className='text-t-10 text-4xl font-bold capitalize '>150k+ Spend</p>
+        <p className='text-t-10  md:text-4xl text-3xl text-center font-bold capitalize pt-2 '>150M+ Spend</p>
       </div>
 
-      <div className="border-b-4 ml-3 flex flex-col items-center justify-center rounded-xl pb-4 border-t-30   duration-300 shadow-md  hover:shadow-custom cursor-pointer hover:border-gold">
+      <div className="border-b-4 ml-3 flex flex-col items-center justify-center rounded-xl pb-4 pt-3 border-t-30   duration-300 shadow-md  hover:shadow-custom cursor-pointer hover:border-gold">
         <ImEarth size={120} className="text-t-10 hover:text-i2 duration-300"/>
-        <p className='text-t-10 text-4xl font-bold capitalize '>350k+ Bidders</p>
+        <p className='text-t-10 md:text-4xl text-3xl text-center font-bold capitalize pt-2 '>12M+ Bidders</p>
       </div>
 
  </div>

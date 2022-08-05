@@ -35,7 +35,7 @@ const login=()=>{
     <header className='p-6 flex'>
         <img src={logo} alt={logo} className='h-10'/><span className='text-4xl font-testimonial text-t-10'>Mynft</span>
     </header>
-
+    <div className='my-auto lg:py-0 py-28'>
     <div className="text-t-80  lg:p-20 p-8 border lg:w-6/12 mx-auto border-lite rounded-xl">
       <h3 className='text-3xl font-bold text-center'>Login user</h3>
       <div className='flex flex-col gap-6 w-11/12 p-3 '>
@@ -50,6 +50,7 @@ const login=()=>{
       {/* <p>Already have accounts? Click on <Link to='/login'><span className='border-b hover:text-red'>Login</span></Link> </p> */}
       </div>
  
+    </div>
     </div>
 
   

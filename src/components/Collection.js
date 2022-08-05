@@ -49,7 +49,7 @@ return (
       </div>
  <div>
   
-  <Link to={`/create/${c.id}`}><button className='p-3 text-center  bg-main hover:bg-purple duration-200 w-full mt-2 px-5 rounded-lg text-t-80 '>Buy</button></Link>
+  <Link to={`/create/${c.id}`}><button className='p-3 text-center  bg-main hover:bg-purple duration-200 w-full mt-2 px-5 rounded-lg text-t-80 '>Collect Now</button></Link>
   
   </div>
  

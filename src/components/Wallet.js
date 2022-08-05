@@ -11,19 +11,19 @@ import { Link } from 'react-router-dom';
 const Wallet = () => {
   return (
     <>
-    <div className="mx-auto w-11/12 mt-3 flex items-center gap-4 p-4 bg-w4">
+    <div className="mx-auto lg:w-11/12 mt-3 flex items-center gap-6 p-4 bg-w4">
       <p className=" text-3xl font-bold text-t-80 ">My wallet</p>
     <Link to='/home'> <BsArrowLeftCircle className='text-t-40' size={30}/></Link> 
       
     </div>
     
 
-<div className="bg-w4   text-t-80 grid lg:grid-cols-2  mx-auto w-11/12 gap-4" >
+<div className="bg-w4   text-t-80 grid lg:grid-cols-2  mx-auto lg:w-11/12 gap-4" >
    {/* <p className='text-2xl text-t-40'>My Wallet</p> */}
 
-  <div className='flex flex-col gap-4 mt-4'>
+  <div className='flex flex-col gap-9 mt-4 pl-3 pr-3'>
      
-  <div className='  bg-w1 p-4 rounded-xl '>
+  <div className='  bg-w1 p-5 rounded-xl '>
     <div className='flex justify-between'>
      <p className='text-2xl font-bold ml-4'>BTC </p>
      <p className='text-lg mr-4'>56.3%</p>
@@ -103,7 +103,7 @@ const Wallet = () => {
 
 <div className='py-4 px-3 '>
 
-<div className="rounded-xl text-t-80 flex  justify-between p-7 bg-i1">
+<div className="rounded-xl text-t-80 flex  justify-between p-10 bg-i1">
   
 
 <div className="flex flex-col items-start ">

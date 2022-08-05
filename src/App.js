@@ -18,6 +18,7 @@ import Explore from './components/Explore'
 import Wallet from './components/Wallet'
 import Login from './components/Login'
 import Form from './components/Form';
+import About from './components/About'
 function App() {
   return (
     <div> 
@@ -33,6 +34,7 @@ function App() {
   <Route  path="/home">
   <Navbar/>
   <Home/>
+  <About/>
   <Features/>
   <Trending/>
   <Collection/>

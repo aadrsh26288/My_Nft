@@ -30,12 +30,12 @@ const register=()=>{
 
 
   return (
- <div className={"w-full h-screen bg-[url('assets/community.png')] bg-cover bg-no-repeat px-4 border-2"} >
+ <div className={"w-full h-screen  bg-[url('assets/community.png')] bg-cover bg-no-repeat px-4 border-2"} >
     <header className='p-6 flex'>
         <img src={logo} alt={logo} className='h-10'/><span className='text-4xl font-testimonial text-t-10'>Mynft</span>
     </header>
-
-    <div className="text-t-80  lg:p-20 p-8 border lg:w-6/12 mx-auto border-lite rounded-xl">
+<div className='my-auto lg:py-0 py-28'>
+    <div className="text-t-80  lg:p-20 p-8 border lg:w-6/12 mx-auto border-lite rounded-xl lg:mt-0 ">
       <h3 className='text-3xl font-bold text-center'>Register user</h3>
       <div className='flex flex-col gap-6 w-11/12 p-3 '>
       <input placeholder="Email.." onChange={(e)=>{setRegisterEmail(e.target.value)}} className="p-2 outline-none bg-t-50 border-b-4 rounded-lg hover:border-t-60 " required/>
@@ -49,6 +49,7 @@ const register=()=>{
       <p>Already have accounts? Click on <Link to='/login'><span className='border-b hover:text-red'>Login</span></Link> </p>
       </div>
  
+    </div>
     </div>
 
   
