@@ -18,7 +18,12 @@ import Explore from './components/Explore'
 import Wallet from './components/Wallet'
 import Login from './components/Login'
 import Form from './components/Form';
+import Article from './components/Articles'
 import About from './components/About'
+import MyArticles from './components/MyArticles'
+import A from './components/A'
+
+
 function App() {
   return (
     <div> 
@@ -34,13 +39,14 @@ function App() {
   <Route  path="/home">
   <Navbar/>
   <Home/>
-  <About/>
   <Features/>
   <Trending/>
+  <About/>
   <Collection/>
   <Community/>
   <Rated/>
   <Section/>
+  <Article/>
   <Footer/> 
   </Route>
   
@@ -49,6 +55,9 @@ function App() {
       <Route path='/explore'><Explore/></Route>
       <Route path='/wallet'><Wallet/></Route>
       <Route path='/login'><Login/></Route>
+      <Route path='/myarticles'><MyArticles/></Route>
+      <Route path='/A/:id' children={<A />}></Route>
+
 
         
 

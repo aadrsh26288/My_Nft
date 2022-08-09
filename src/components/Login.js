@@ -4,6 +4,8 @@ import {auth} from '../config/fire'
 import { useHistory } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import logo from '../assets/mark.png'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Login = () => {
@@ -18,9 +20,18 @@ const login=()=>{
         return res
     }).then((user)=>{
         console.log(user) 
-         alert('Welcome ')
-
+        toast.success('Welcome Back ', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            });
+    setTimeout(function(){
         navigate.push('/home')
+    },3000)
     }).catch((err)=>{
         alert(err.message)
     })
@@ -52,7 +63,17 @@ const login=()=>{
  
     </div>
     </div>
-
+    <ToastContainer
+position="top-right"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+/>
   
  </div>
   )

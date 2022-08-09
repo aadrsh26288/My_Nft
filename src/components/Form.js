@@ -4,22 +4,35 @@ import {auth} from '../config/fire'
 import { useHistory } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import logo from '../assets/mark.png'
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Form = () => {
+
   
     const[registerEmail,setRegisterEmail]=useState('')
     const[registerPassword,setRegisterPassword]=useState('')
     let navigate = useHistory();
 
-const register=()=>{
+function register(){
     const users = createUserWithEmailAndPassword(auth,registerEmail,registerPassword).then((res)=>{
         return res
     }).then((user)=>{
-        console.log(user) 
-         alert('success')
-
+        console.log(user)
+        toast.success('Register Successfull', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            });
+    setTimeout(function(){
         navigate.push('/login')
+    },3000)
+
+   
     }).catch((err)=>{
         alert(err.message)
     })
@@ -27,9 +40,13 @@ const register=()=>{
     setRegisterPassword('')
 }
 
+function t(){
 
+    // toast('Register successfull')
+}
 
   return (
+    <>
  <div className={"w-full h-screen  bg-[url('assets/community.png')] bg-cover bg-no-repeat px-4 border-2"} >
     <header className='p-6 flex'>
         <img src={logo} alt={logo} className='h-10'/><span className='text-4xl font-testimonial text-t-10'>Mynft</span>
@@ -45,15 +62,28 @@ const register=()=>{
       <button onClick={register} className='bg-t-90 inline-block p-2 rounded-lg hover:bg-secondary text-lg font-semibold' >Sign Up</button>
       <Link to='/login'>  <button  className='bg-w2 inline-block p-2  px-4 rounded-lg hover:bg-w1 text-lg font-semibold' >Login</button></Link> 
 
+
       </div>
       <p>Already have accounts? Click on <Link to='/login'><span className='border-b hover:text-red'>Login</span></Link> </p>
       </div>
  
     </div>
     </div>
+    <ToastContainer
+position="top-right"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+/>
+ </div> 
 
+ </>
   
- </div>
   )
 }
 

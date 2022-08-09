@@ -20,10 +20,10 @@ const Footer = () => {
                 <div className='ml-3'>
                     <p className='lg:w-full mb-3 lg:text-xl'>Nec, enim sed lacus, magna pharetra. Phasellus tincidunt nulla pharetra gravida est. </p>
                     <div className='flex gap-14 '>
-                      <BsLinkedin size={40 } className='bg-t-20 rounded-md text-linkedin'/>
+                      <BsLinkedin size={40 } className='rounded-md '/>
                       {/* <ImTwitter size={30} className=' rounded-md text-twitter'/> */}
-                      <FaFacebookSquare size={40} className='rounded-md text-facebook '/>
-                      <IoLogoYoutube size={45} className=' rounded-md text-youtube'/>
+                      <FaFacebookSquare size={40} className='rounded-md  '/>
+                      <IoLogoYoutube size={45} className=' rounded-md'/>
                     </div>
                 </div>
             </div>

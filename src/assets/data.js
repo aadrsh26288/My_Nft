@@ -26,7 +26,6 @@ import a_9 from '../assets/a-9.png'
 import a_10 from '../assets/a-10.png'
 import a_11 from '../assets/a-11.png'
 import a_12 from '../assets/a-12.png'
-
 import j_1 from '../assets/j-1.png'
 import j_2 from '../assets/j-2.png'
 import j_3 from '../assets/j-3.png'
@@ -37,6 +36,20 @@ import p_2 from '../assets/p-2.png'
 import p_3 from '../assets/p-3.png'
 import p_4 from '../assets/p-4.png'
 import p_5 from '../assets/p-5.png'
+import article_bg1 from '../assets/article_bg.png'
+import article_1 from '../assets/article-1.png'
+import article_2 from '../assets/article-2.png'
+import article_3 from '../assets/article-3.png'
+import arr from '../assets/arr.png'
+import arr2 from '../assets/arr2.png'
+import arr3 from '../assets/arr3.png'
+import arr4 from '../assets/arr4.png'
+import arr5 from '../assets/arr5.png'
+import arr6 from '../assets/arr6.png'
+import arr7 from '../assets/arr7.png'
+
+
+
 
 
 
@@ -230,4 +243,87 @@ export default Filter_data
     {id:5,img:j_5,Name:'Music',items:20},
     {id:6,img:j_6,Name:'Art',items:20},
  
+]
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+ export const articles=[
+    {
+    id:1,
+    img:article_bg1,
+    title:'NFTs Weren’t Supposed to End Like This',
+    def:'  When we invented non-fungible tokens, we were trying to protect artists. But tech-world opportunism has struck again.',
+    date:'16 Jan 2022',
+    author:'Anil Dash',
+    body:'The only thing we’d wanted to do was ensure that artists could make some money and have control over their work. Back in May 2014, I was paired up with the artist Kevin McCoy at Seven on Seven, an annual event in New York City designed to spark new ideas by connecting technologists and artists. I wasn’t sure which one I was supposed to be; McCoy and his wife, Jennifer, were already renowned for their collaborative digital art, and he was better at coding than I was. At the time, I was working as a consultant to auction houses and media companies—a role that had me obsessively thinking about the provenance, ownership, distribution, and control of artworks. Seven on Seven was modeled after tech-industry hackathons, in which people stay up all night to create a working prototype that they then show to an audience. This was around the peak of Tumblr culture, when a raucous, wildly inspiring community of millions of artists and fans was sharing images and videos completely devoid of attribution, compensation, or context. As it turned out, some of the McCoys’ works were among those being widely “reblogged” by Tumblr users. And Kevin had been thinking a lot about the potential of the then-nascent blockchain—essentially an indelible ledger of digital transactions—to offer artists a way to support and protect their creations.',
+    },
+    {
+        id:2,
+        img:arr,
+        title:'Why Community Marketplaces are the future of NFT trading',
+        def:'Community marketplaces have custom branding, lower fees than third-party platform and guarantee you’re buying your NFTs from the real collection',
+        date:'8 Feb 2022',
+    author:'levi cowill',
+        body:"Ironically, to explain what NFT community marketplaces are and why we're so bullish on them, we'll have to briefly go back to the Web2 space.  If you’ve ever been to an Apple Store, you know how different it is from big box retailers. No cramped rows of metal shelves, no yellow “SALE” signs, zero chance of tripping over stacked boxes. Just a few wooden tables, curated selection of devices, and a lot of light.     Whether you think that Apple Stores are peaceful spaces or you decry them as pretentious modernism, you can’t deny they’re different. More importantly, you can’t deny they’re Apple.Naturally, this applies to online experiences as well. When a customer buys from your website, you can collect email data for future marketing campaigns, you don’t pay another platform’s fees and you can create an on-brand online shopping experience.    Behind all of this is a broader trend: Brands want to go direct-to-consumer, own the full customer experience and cut out stakeholders that charge a fee without adding sufficient value… Does that remind you of the Web3's fundamental principles yet?",
+        },
+    
+        {
+            id:3,
+            img:arr2,
+            title:'The Creator Economy — NFTs and Beyond',
+            def:'NFTs is more than just a passing fad.',
+            date:'26 July 2022',
+             author:'John Doe',
+            body:"NFTs or Non-fungible Tokens have been gaining a lot of attention lately, both from investors and creators. They are crypto tokens tied to artwork on a blockchain. To buy the artwork, one must buy the token as well. The non-fungibility of these tokens is what renders them unique, just like a Monet or Van Gogh. The advantages of NFTs are embedded in their code which ensures transparency and the immutability of ownership. A new asset class like this going mainstream could be a game changer not only for individual creators but also the whole creator economy.  Contrary to what some skeptics may say, NFTs is more than just a passing fad. The NFT market has experienced a significant rise in 2021, reaching USD 2.4 billion by the second quarter. The number of active wallets also rose 151.89% at around the same time signifying more potential buyers and thus more sale prospects for NFT creators.",
+            }   ,
+            {
+                id:4,
+                img:arr3,
+                title:'Profiting in Bear and Bull Markets',
+                def:'bear markets occur during economic recessions or depressions, when pessimism prevails',
+                date:'13 Aug 2022',
+                author:'emily lokewill',
+
+                body:'Both bear markets and bull markets represent tremendous opportunities to make money, and the key to success is to use strategies and ideas that can generate profits under a variety of conditions. This requires consistency, discipline, focus, and the ability to take advantage of fear and greed. This article will help familiarize you with investments that can prosper in up or down markets. A bear market is defined as a drop of 20% or more in a market average. Generally, bear markets occur during economic recessions or depressions, when pessimism prevails. But amid the rubble lie opportunities to make money for those who know how to use the right tools. Here are some ways to profit in bear markets',
+                },
+                {
+                    id:5,
+                    img:arr4,
+                    title:'Key takeaways from NFTs and a Thousand True Fans',
+                     date:'13 Oct 2022',
+                    author:'breny jed',
+                     body:"To be a successful creator you don’t need millions. You don’t need millions of dollars or millions of customers, millions of clients or millions of fans. To make a living as a craftsperson, photographer, musician, designer, author, animator, app maker, entrepreneur, or inventor you need only thousands of true fans    A true fan is defined as a fan that will buy anything you produce. These diehard fans will drive 200 miles to see you sing; they will buy the hardback and paperback and audible versions of your book; they will purchase your next figurine sight unseen; they will pay for the “best-of” DVD version of your free YouTube channel; they will come to your chef’s table once a month.              Kelly’s vision was that the internet was the ultimate matchmaker, enabling 21st century patronage. Creators, no matter how seemingly niche, could now discover their true fans, who would in turn demonstrate their enthusiasm through direct financial support               But the internet took a detour. Centralized social platforms became the dominant way for creators and fans to connect. The platforms used this power to become the new intermediaries — inserting ads and algorithmic recommendations between creators and users while keeping most of the revenue for themselves.   The good news is that the internet is trending back to Kelly’s vision. For example, many top writers on Substack earn far more than they did at salaried jobs. The economics of low take rates plus enthusiastic fandom does wonders. On Substack, 1,000 newsletter subscribers paying $10/month nets over $100K/year to the writer.",
+                     },
+
+                  {
+                    id:6,
+                    img:arr5,
+                    title:'What is cryptocurrency?',
+                    def:'Cryptocurrency: What It Is and How It Works',
+                     date:'13 Oct 2022',
+                      author:'Sevukich Pieyette',
+
+                     body:"A cryptocurrency (or “crypto”) is a digital asset that can circulate without the need for a central monetary authority such as a government or bank. Instead, cryptocurrencies are created using cryptographic techniques that enable people to buy, sell or trade them securely. How does cryptocurrency work?Bitcoin and most other cryptocurrencies are supported by a technology known as blockchain, which maintains a tamper-resistant record of transactions and keeps track of who owns what. The creation of blockchains addressed a problem faced by previous efforts to create purely digital currencies: preventing people from making copies of their holdings and attempting to spend it twice       Individual units of cryptocurrencies can be referred to as coins or tokens, depending on how they are used. Some are intended to be units of exchange for goods and services, others are stores of value, and some can be used to participate in specific software programs such as games and financial products. How are cryptocurrencies created? One common way cryptocurrencies are created is through a process known as mining, which is used by Bitcoin. Mining can be an energy-intensive process in which computers solve complex puzzles in order to verify the authenticity of transactions on the network. As a reward, the owners of those computers can receive newly created cryptocurrency. Other cryptocurrencies use different methods to create and distribute tokens, and many have a significantly lighter environmental impact",
+                     },
+
+                     
+
+                     {
+                        id:7,
+                        img:arr6,
+                        title:'What Is Web3?',
+                        def:'Your guide to (what could be) the future of the internet',
+                         date:'13 Oct 2022',
+                        author:'Sima Sharma',
+
+                         body:"Web3 is the name some technologists have given to the idea of a new kind of internet service that is built using decentralized blockchains — the shared ledger systems used by cryptocurrencies like Bitcoin and Ether.                    The term has been around for years, but it has come into vogue in the past year or so. Packy McCormick, an investor who helped popularize web3, has defined it as “the internet owned by the builders and users, orchestrated with tokens.”                             Proponents envision web3 taking many forms, including decentralized social networks, “play-to-earn” video games that reward players with crypto tokens, and NFT platforms that allow people to buy and sell fragments of digital culture. The more idealistic ones say that web3 will transform the internet as we know it, upending traditional gatekeepers and ushering in a new, middleman-free digital econom   But some critics believe that web3 is little more than a rebranding effort for crypto, with the aim of shedding some of the industry’s cultural and political baggage and convincing people that blockchains are the natural next phase of computing. Others believe it’s a dystopian vision of a pay-to-play internet, in which every activity and social interaction becomes a financial instrument to be bought and sold.",
+                         },
+       
+
+                  
+
 ]
