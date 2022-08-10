@@ -19,7 +19,7 @@ function register(){
         return res
     }).then((user)=>{
         console.log(user)
-        toast.success('Register Successfull', {
+        toast.success('Register Successfull 😀', {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
@@ -34,7 +34,16 @@ function register(){
 
    
     }).catch((err)=>{
-        alert(err.message)
+        toast.error('Failed!!! Please try again 🤕', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            });
+        // alert(err.message)
     })
     setRegisterEmail('')
     setRegisterPassword('')

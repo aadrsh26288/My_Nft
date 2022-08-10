@@ -48,8 +48,8 @@ const Create = () => {
 
 
 
-<div>
-<div className="text-t-80 grid lg:grid-cols-2 lg:gap-0 gap-4   ">
+<div className="mt-5">
+<div className="text-t-80 grid lg:grid-cols-2 lg:gap-0 gap-4    ">
       <div className="">
         <img src={image} alt={image} className=" w-full"/>
      {/* <h1 className="text-2xl text-t-80 ">{Name}</h1> */}
@@ -84,20 +84,20 @@ const Create = () => {
 
       <div className='grid sm:grid-cols-4 grid-cols-2 gap-6 py-3 mt-3 lg:p-8 justify-items-center bg-t-30 '>
         <div className='border-2 h-32 w-32 flex flex-col justify-center items-center rounded-xl bg-purple border-org'>
-          <p>{bid}</p>
-          <p>Bidders</p>
+          <p className='font-semibold text-xl'>{bid}</p>
+          <p className='font-semibold text-xl'>Bidders</p>
         </div>
-        <div className='border-2 h-32 w-32 flex flex-col justify-center items-center rounded-xl'>
-          <p>5</p>
-          <p>Past Owners</p>
+        <div className='border-2 h-32 w-32 flex flex-col justify-center items-center rounded-xl bg-w1  border-org'>
+          <p className='font-semibold text-xl'>1</p>
+          <p  className='font-semibold text-xl text-center'>Owners</p>
         </div> 
-        <div className='border-2 h-32 w-32 flex flex-col justify-center items-center rounded-xl'>
-          <p className=''>{price}<span className=' font-bold text-lite text-center ml-2 mt-1'>ETH</span></p>
-          <p>Price</p>
+        <div className='border-2 h-32 w-32 flex flex-col justify-center items-center rounded-xl bg-w2  border-org'>
+          <p  className='font-semibold text-xl'>{price}</p>
+          <p className='font-semibold text-xl'>Price</p>
         </div> 
-        <div className='border-2 h-32 w-32 flex flex-col justify-center items-center rounded-xl'>
-          <p>{like}</p>
-          <p>Likes</p>
+        <div className='border-2 h-32 w-32 flex flex-col justify-center items-center rounded-xl bg-w3 border-org'>
+          <p  className='font-semibold text-xl'>{like}</p>
+          <p  className='font-semibold text-xl'>Likes</p>
         </div>
 
       </div>

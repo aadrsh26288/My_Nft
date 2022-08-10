@@ -18,7 +18,7 @@ function A(){
     })
     return(
        
-        <div className="text-t-10 mx-auto p-6 border-2">
+        <div className="text-t-10 mx-auto p-6 ">
       
       <div className=''>
          

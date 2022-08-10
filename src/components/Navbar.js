@@ -13,12 +13,12 @@ const nav1=
 [
     {
        id:1,
-       name: 'Create',
-       to:'/create',
+       name: 'Explore',
+       to:'/explore',
     },
     {
         id:2,
-        name: 'Explore',
+        name: 'Contact',
       
      },
      {
