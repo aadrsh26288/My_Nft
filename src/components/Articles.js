@@ -3,11 +3,12 @@ import article_1 from '../assets/article-1.png'
 import article_2 from '../assets/article-2.png'
 import article_3 from '../assets/article-3.png'
 import{Link} from 'react-router-dom'
+import company from '../assets/company.png'
 
 const Article = () => {
   return (
     <div className="mt-10 flex flex-col items-center">
-      <h1 className="text-4xl text-white font-bold text-t-80 text-center">Articles</h1>
+      <h1 className="text-4xl text-white font-bold text-t-80 text-center font-signature">Articles</h1>
         <div className="mx-auto w-11/12 text-t-10 flex md:flex-row flex-col items-center md:gap-10 gap-3 justify-center mt-8">
         <Link to={`/A/${2}`} >  <div className='md:w-72 border-2 border-t-90 rounded-lg md:hover:scale-125 duration-500  'key={1}>
                 <img src={article_1} alt="Arcticle" className='md:w-72' />
@@ -37,12 +38,15 @@ const Article = () => {
             </div>
 
           </Link> 
-         
-
-
         </div>  
-   <Link to='/myarticles'><button className='text-center text-t-10 border-2 border-t-90 cursor-pointer p-3 w-40 lg:mt-10 mt-5 rounded-2xl'>See More</button></Link>    
+   <Link to='/myarticles'><button className='text-center text-t-10 border-2 border-t-90 cursor-pointer p-3 w-40 lg:mt-10 mt-5 rounded-2xl'>See More</button></Link>   
+
+   <div className='mt-10'>
+      <img src={company} alt='company' className='px-12'/>
+  </div> 
+
     </div>
+
   )
 }
 

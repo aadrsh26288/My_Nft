@@ -47,6 +47,20 @@ import arr4 from '../assets/arr4.png'
 import arr5 from '../assets/arr5.png'
 import arr6 from '../assets/arr6.png'
 import arr7 from '../assets/arr7.png'
+import exp1 from '../assets/exp-1.png'
+import exp2 from '../assets/exp-2.png'
+import exp3 from '../assets/exp-3.png'
+import exp4 from '../assets/exp-4.png'
+import exp5 from '../assets/exp-5.png'
+import exp6 from '../assets/exp-6.png'
+import exp7 from '../assets/exp-7.png'
+import exp8 from '../assets/exp-8.png'
+import exp9 from '../assets/exp-9.png'
+import exp10 from '../assets/exp-10.png'
+
+
+
+
 
 
 
@@ -325,5 +339,24 @@ export default Filter_data
        
 
                   
+
+]
+
+/////////////////////////////////////////
+
+
+
+ export const explore =[
+    {id:1, title:'Chainshaw Monkey' ,img:exp1,price:100,artist:c_1,name:'jelly koilen'},
+    {id:2, title:'gangstaboi v.1' ,img:exp2,price:50,artist:c_2,name:'roy walker'},
+    {id:3, title:'Lyodd$1' ,img:exp3,price:130,artist:c_3,name:'andrew'},
+    {id:4, title:'missgrEEn' ,img:exp4,price:74,artist:c_1,name:'marsh tim'},
+    {id:5, title:'HyperApe' ,img:exp5,price:83,artist:c_2,name:'brown din'},
+    {id:6, title:'cvltB3AR' ,img:exp6,price:52,artist:c_3,name:'cooper brad'},
+    {id:7, title:'SneakerHead Vol.1' ,img:exp7,price:274,artist:c_1,name:'yino walsh'},
+    {id:8, title:'Azuki 3D ' ,img:exp8,price:812,artist:c_2,name:'elon fuller'},
+    {id:9, title:'CuteApe White ' ,img:exp9,price:199,artist:c_1,name:' walter pitt'},
+    {id:10, title:'InvisibleFriend ' ,img:exp10,price:120,artist:c_3,name:'mr ryan'},
+
 
 ]

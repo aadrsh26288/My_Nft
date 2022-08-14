@@ -56,7 +56,7 @@ function t(){
 
   return (
     <>
- <div className={"w-full h-screen  bg-[url('assets/community.png')] bg-cover bg-no-repeat px-4 border-2"} >
+ <div className={"w-full h-screen  bg-[url('assets/community.png')] bg-cover bg-no-repeat px-4 border-2 contrast-125"} >
     <header className='p-6 flex'>
         <img src={logo} alt={logo} className='h-10'/><span className='text-4xl font-testimonial text-t-10'>Mynft</span>
     </header>

@@ -5,12 +5,13 @@ import {BsCart2} from 'react-icons/bs'
 import {GiTakeMyMoney} from 'react-icons/gi'
 import{ImEarth} from 'react-icons/im'
 import {BsFillPersonFill} from 'react-icons/bs'
+import Footer from './Footer'
 // import ReactPlayer from "react-player"
 
 import Form from './Form'
 const Community_page = () => {
   return (
-<div className="h-screen bg-cover bg-no-repeatvflex flex-col items-center justify-center text-t-20" >
+<div className="flex flex-col items-center justify-center text-t-20" >
   {/* <h1 className="text-community-c4 text-4xl font-bold text-center  py-5 font-style_3">Join Our Community</h1> */}
 
 
@@ -83,9 +84,8 @@ const Community_page = () => {
     <input type='text' placeholder='Gmail...' className='bg-t-30 outline-none p-2 md:w-96 rounded-l-lg'></input>
   <p className='bg-red p-3 px-6 rounded-r-lg cursor-pointer'>Send</p>
   </div>
-
-
   </div>
+
 
 </div>
 
@@ -93,4 +93,4 @@ const Community_page = () => {
   )
 }
 
-export default Community_page
+export default Community_page;

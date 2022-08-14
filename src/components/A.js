@@ -18,7 +18,7 @@ function A(){
     })
     return(
        
-        <div className="text-t-10 mx-auto p-6 ">
+        <div className="text-t-10 mx-auto p-6 contrast-200">
       
       <div className=''>
          
@@ -27,9 +27,9 @@ function A(){
          </div>
 
          <div className='mt-4'>
-          <p className='text-2xl font-bold'>{Name}</p>
-          <p className='text-xl'>{body}</p>
-          <p>{date}</p>
+          <p className='text-2xl font-bold text-t-70'>{Name}</p>
+          <p className='text-xl mt-4'>{body}</p>
+          <p className='mt-2 text-red'>{date}</p>
          </div>
       
       </div>

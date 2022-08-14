@@ -3,11 +3,12 @@ import {data} from '../assets/data'
 import t_1 from '../assets/t-1.png'
 import Eth from '../assets/eth.png'
 import {data2} from '../assets/data'
+import { Link } from 'react-router-dom'
 const Trending = () => {
   return (
     <div>
       
-     <div className='bg-black mt-20'>
+     <div className='bg-black mt-20 contrast-200'>
       <div className=' mx-auto w-11/12 grid lg:grid-cols-2 bg-black gap-6'>
 
       <div className='parent '>
@@ -17,7 +18,7 @@ const Trending = () => {
           <p className=' text-primary'>See what’s hot in the world of non-fungibles.</p>
           </div>
           <div>
-            <button className='text-t-40 bg-t-30  px-3  mr-2 p-1 rounded-md'>Explore</button>
+     <Link to='/explore'>  <button className='text-t-40 bg-t-30  px-3  mr-2 p-1 rounded-md'>Explore</button></Link>         
           </div>
         </div>
         
@@ -57,7 +58,8 @@ const Trending = () => {
           <p className=' text-primary'>See what’s up and coming this week.</p>
           </div>
           <div>
-            <button className='text-t-40 bg-t-30  px-3 mr-2 p-1 rounded-md'>Explore</button>
+     <Link to='/explore'>  <button className='text-t-40 bg-t-30  px-3  mr-2 p-1 rounded-md'>Explore</button></Link>         
+         
           </div>
         </div>
         

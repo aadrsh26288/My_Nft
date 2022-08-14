@@ -4,8 +4,8 @@ import jess from '../assets/jess.png'
 import hero2 from '../assets/hero-2.png'
 const Home = () => {
   return (
-    <div className="bg-black ">
-    <div className='bg-gradient-to-r from-main to-org mx-auto w-11/12  text-white   md:grid grid-cols-2 items-center rounded-lg ' >
+    <div className="bg-black  z-0">
+    <div className='bg-gradient-to-r  from-main to-org mx-auto w-11/12  text-white   md:grid grid-cols-2 items-center rounded-lg ' >
    <div className='flex flex-col justify-evenly h-auto   pt-16 ml-4 pl-3 gap-4' >
    <div className=''>
     <p className='font-semibold  tracking-widest text-t-40 '>Welcome</p>
@@ -15,8 +15,8 @@ const Home = () => {
     <p>We are the world’s highest-rated <br></br> online marketplace</p>
   </div>
   <div className='flex gap-3 text-t-20'>
-    <button className='bg-t-50 py-2 px-5 text-center rounded-lg'>Explore NFTs</button>
-    <button className='py-2 px-5 text-center rounded-lg bg-t-70'>Create Your Own</button>
+    <button className='bg-t-50 py-2 px-5 text-center rounded-lg hover:translate-y-3.5 hover:bg-w1 hover:text-t-20 duration-300'>Explore NFTs</button>
+    <button className='py-2 px-5 text-center rounded-lg bg-t-70 text-t-50 hover:-translate-y-3.5 hover:bg-w4 hover:text-t-20 duration-300'>Create Your Own</button>
   </div>
   <div className='flex items-center gap-9 lg:mt-11'>
     <img src={jess} alt={jess} className=' h-52' />

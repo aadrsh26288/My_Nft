@@ -13,11 +13,11 @@ const Rated = () => {
 }
 
   return (
-    <div className="mt-20 text-t-80">
+    <div className="mt-20 text-t-80 contrast-125">
         <div className="mx-auto w-11/12 bg-org p-5 rounded-lg ">
            
            <div>
-            <h2 className="text-2xl font-semibold text-white">Get your own Nft Now!!!</h2>
+            <h2 className="text-2xl font-semibold text-white font-signature">Get your own Nft Now!!!</h2>
            </div>
 
            <div className='lg:flex items-center lg:justify-around mt-4 gap-5 flex text-gray-500'>
@@ -38,7 +38,9 @@ const Rated = () => {
                 <div className="cursor-pointer">
                   <div className="">
                     {/* <img src={img} alt={img} className=""/> */}
-                    <img src={img} alt={img} className={`lg:h-52 h-46 shadow-lg hover:scale-105 duration-500 hover:${color} lg:ml-4 rounded-lg`}/>
+                    {/* <img src={img} alt={img} className={`lg:h-52 h-46 shadow-lg hover:scale-110 duration-500 hover:${color} lg:ml-4 rounded-lg`}/> */}
+                    <img src={img} alt={img} className='lg:h-52 h-46  hover:shadow-lg hover:shadow-purple hover:scale-110 duration-500  lg:ml-4 rounded-lg'/>
+
 
                     </div>
                 </div>

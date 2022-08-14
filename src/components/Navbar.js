@@ -11,14 +11,15 @@ const Navbar = () => {
 
 const nav1=  
 [
-    {
-       id:1,
-       name: 'Explore',
-       to:'/explore',
-    },
+//     {
+//        id:1,
+//        name: 'Explore',
+//        to:'/explore',
+//     },
     {
         id:2,
         name: 'Contact',
+        to:'/contact',
       
      },
      {
@@ -35,7 +36,7 @@ const nav1=
 
 
   return (
-    <div className='flex bg-black text-t-10 items-center justify-between p-5 w-full z-50' >
+    <div className='flex bg-black text-t-10 items-center justify-between p-5 w-full z-10' >
         <div className='flex gap-1'>
             <img src={logo} alt={logo}/>
         <Link to='/'>  <h3 className='text-2xl font-semibold font-testimonial '>Mynft</h3></Link>  
@@ -61,7 +62,7 @@ const nav1=
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-custom to-t-50 text-gray-500">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b contrast-200 from-custom to-t-50 text-gray-500">
           {nav1.map(({ id, name ,to}) => (
             <li
               key={id}

@@ -34,7 +34,7 @@ const Features = () => {
 
         </div>
 
-        <div className=' flex items-center justify-between   rounded-lg p-5 bg-w4'>
+        <div className=' flex items-center justify-between   rounded-lg p-5 bg-org'>
             <div className='flex flex-col gap-3 pl-3'> 
               <div className=''>
               <RiMoneyDollarCircleLine size={30} className='text-lite'/>
@@ -61,7 +61,7 @@ const Features = () => {
 
 
 
-<div className="bg-black mt-14">
+<div className="bg-black mt-14 contrast-125">
     <div className="mx-auto w-11/12 pt-6">
           <p className='text-t-80 text-3xl font-semibold font-signature'>Upcoming Drops</p>
           <p className='text-t-40 '>Be the first to get your hands on limited NFT drops, exclusive to NFTwow.</p>

@@ -10,7 +10,7 @@ const Collection = () => {
   return (
 <>
 
-<div className="mt-20">
+<div className="mt-20 contrast-100">
   <div className='mx-a uto w-11/12 relative '>
    
     <h1 className='text-white  z-10 h-auto w-auto'>Top Collections</h1>

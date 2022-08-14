@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import create from '../assets/create.png'
 const Community = () => {
   return (
-    <div className='text-t-80 mt-20'>
+    <div className='text-t-80 mt-20 contrast-125'>
         <div className="w-11/12 mx-auto md:grid rounded-lg  md:grid-cols-2 gap-4 items-center bg-gradient-to-r from-org to-third flex flex-col">
     <div className='flex flex-col gap-5 lg:ml-16 lg:mt-14 mt-10 pl-5 '>
       <div>

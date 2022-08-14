@@ -14,7 +14,7 @@ import Rated from './components/Rated'
 import Footer from './components/Footer'
 import Community_page from './components/Community_page';
 import Create from './components/Create'
-// import Explore from './components/Explore'
+import Explore from './components/Explore'
 import Wallet from './components/Wallet'
 import Login from './components/Login'
 import Form from './components/Form';
@@ -22,6 +22,7 @@ import Article from './components/Articles'
 import About from './components/About'
 import MyArticles from './components/MyArticles'
 import A from './components/A'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -47,24 +48,22 @@ function App() {
   <Rated/>
   <Section/>
   <Article/>
-  <Footer/> 
+   <Footer/> 
   </Route>
   
       <Route path='/create/:id' children={<Create />}></Route>
       <Route path='/Community'><Community_page/></Route>
-      {/* <Route path='/explore'><Explore/></Route> */}
+      <Route path='/explore'><Explore/></Route>
       <Route path='/wallet'><Wallet/></Route>
       <Route path='/login'><Login/></Route>
       <Route path='/myarticles'><MyArticles/></Route>
       <Route path='/A/:id' children={<A />}></Route>
-
-
-        
-
+      <Route path='/contact'><Contact/></Route>
         </Switch>
+
+    
       </Router>
-
-
+ 
 
 
    {/* <Home/>
