@@ -2,6 +2,7 @@ import React from 'react'
 import Heroimg from '../assets/hero-image.png'
 import jess from '../assets/jess.png'
 import hero2 from '../assets/hero-2.png'
+import{Link} from 'react-router-dom'
 const Home = () => {
   return (
     <div className="bg-black  z-0">
@@ -15,8 +16,8 @@ const Home = () => {
     <p>We are the world’s highest-rated <br></br> online marketplace</p>
   </div>
   <div className='flex gap-3 text-t-20'>
-    <button className='bg-t-50 py-2 px-5 text-center rounded-lg hover:translate-y-3.5 hover:bg-w1 hover:text-t-20 duration-300'>Explore NFTs</button>
-    <button className='py-2 px-5 text-center rounded-lg bg-t-70 text-t-50 hover:-translate-y-3.5 hover:bg-w4 hover:text-t-20 duration-300'>Create Your Own</button>
+ <Link to='/explore'>  <button className='bg-t-50 py-2 px-5 text-center rounded-lg hover:translate-y-3.5 hover:bg-w1 hover:text-t-20 duration-300'>Explore NFTs</button></Link> 
+    <button className='py-2 px-5 text-center rounded-lg bg-t-70 text-t-50 hover:translate-y-3.5 hover:bg-w4 hover:text-t-20 duration-300'>Create Your Own</button>
   </div>
   <div className='flex items-center gap-9 lg:mt-11'>
     <img src={jess} alt={jess} className=' h-52' />

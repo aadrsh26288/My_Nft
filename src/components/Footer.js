@@ -60,10 +60,10 @@ const Footer = () => {
           </div>  
 
           <div className=' mt-4 p-3'>
-           <h1 className='text-xl font-bold'>Subscribe to Get latest Upadtes And News</h1>
+           <h1 className='text-xl font-bold first-letter:text-red'>Subscribe to Get latest Upadtes And News</h1>
            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam mauris sed ma</p>
            <div className='flex flex-col gap-3 mt-3 '>
-            <input type="text" placeholder="Email..." className='p-3 rounded-lg outline-none text-w4 '/>
+            <input type="text" placeholder="Email..." className='p-3 rounded-lg outline-none text-w4  '/>
             <button className='p-3 bg-t-30 rounded-lg'>Subscribe</button>
            </div>
           </div> 
@@ -76,7 +76,7 @@ const Footer = () => {
           <p className=' h-1 bg-t-80 mt-4 mx-auto w-11/12'></p>
        
           <div className='flex justify-between w-11/12 mx-auto mt-3 '>  
-             <p className='pr-6 text-justify'>Copyright <span className='text-red'>©</span> 2022 Adarsh Msihra| All Rights Reserved </p>
+             <p className='pr-4 text-lg '>Copyright <span className='text-red'>©</span> 2022 Adarsh Msihra </p>
              <div className='flex gap-4 items-center '>
              <a href='https://www.linkedin.com/feed/' target='_blank'><BsLinkedin size={20} /></a>  
              <a href='https://www.twitter.com' target='_blank'> <ImTwitter size={20}/></a>  

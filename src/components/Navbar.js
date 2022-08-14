@@ -11,11 +11,11 @@ const Navbar = () => {
 
 const nav1=  
 [
-//     {
-//        id:1,
-//        name: 'Explore',
-//        to:'/explore',
-//     },
+    {
+       id:1,
+       name: 'Explore',
+       to:'/explore',
+    },
     {
         id:2,
         name: 'Contact',
